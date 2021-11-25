@@ -50,14 +50,14 @@ header {
     position: relative;
 }
 
-.img-wrapper {
+.img_cabeça {
     width: 100%;
     height: 100%;
     overflow: hidden;
     background-color: rgba(5, 4, 4, 0.8);
 }
 
-.img-wrapper img {
+.img_cabeça img {
     width: 100%;
     height: 100%;
     object-fit: cover;
