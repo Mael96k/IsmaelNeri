@@ -186,6 +186,10 @@ header {
     color: rgb(127, 150, 145);
     text-align: center
 }
+i{
+    color: rgb(112, 95, 95);
+    font-size: 2rem;
+}
 
 .Conhecimento_Topico_html {
     font-size: 4rem;
