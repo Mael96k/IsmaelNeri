@@ -45,7 +45,7 @@ html{
 
 
 header {
-    width: 150%;
+    width: 100vmax;
     height: 100vh;
     overflow: hidden;
     position: relative;
