@@ -180,12 +180,12 @@ header {
 /*--------------- Topico Conhecimento ----------  */
 
 .sessao_conhecimentos {
-    margin: 0px;
-    padding: 0;
+    margin: 10px;
     font-family: var(--font-primary);
     font-size: 40px;
     color: rgb(127, 150, 145);
-    text-align: center
+    text-align: center;
+    
 }
 i{
     color: rgb(112, 95, 95);
@@ -280,9 +280,9 @@ i{
 
                      /*  topico projetos */
 .projetos {
-    display: flex
+    display: flex;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    margin-bottom:2px;
 }
 
 .sessao-header {
