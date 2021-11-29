@@ -278,6 +278,17 @@ i{
     color: rgb(134, 106, 106);
 }
 
+.Conhecimento_Topico_Sql{
+    font-size: 4rem;
+    text-align: center;
+}
+.btn_sql{
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-family:var(--font-primary);
+    color: rgb(134, 106, 106);
+}
                      /*  topico projetos */
 .projetos {
     display: flex;
