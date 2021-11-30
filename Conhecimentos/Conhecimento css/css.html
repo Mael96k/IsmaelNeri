@@ -10,9 +10,16 @@
     <link rel="manifest" href="/site.webmanifest" />
     <title>Css</title>
 </head>
+
 <body>
     <div class="container">
-        <header>
+        <div class="linhas_menu">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        </div> 
+    <div class="container">
+        <header id="home">
             <div class="img_cabeça">
                 <img src="img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg" alt="" >
             </div>
@@ -21,7 +28,7 @@
                 <h1>CSS3</h1>
             </div>
         </header>
-    </div>
+
     <div>
         <h3>Css3</h3>
         <p>Dar forma, estilos aos conteúdos criados em HTML. E principalmente separar a marcação da apresentação. Ele foi criado para tirar formas de apresentação até então atribuídas a elementos e atributos HTML. Com ele é possível definir, para uma página HTML sem estilos, cores de para textos, fundos, bordas, tamanhos e tipos de fontes, espaçamentos, posicionar blocos, até fazer animações, entre outros.</p>
@@ -54,6 +61,25 @@
         <P><b>Font-size</b> – Esta define o tamanho da fonte.</P>
         <P><b>Font-family</b> – Define a família de fontes. Com ela você pode declarar uma fonte específica e uma genérica.</P>
         <p>É indicado que toda vez que você declarar uma fonte específica, declare também na sequência uma fonte de família genérica que corresponda à fonte específica declarada. Isso porque se a fonte específica não estiver disponível no dispositivo do usuário o navegador terá a liberdade para escolher uma fonte semelhante da família genérica. Por exemplo. Se você declarou a fonte específica Verdana, declare também a genérica sans-serif porque Verdana é uma fonte sem serifa.</p>
+
+<footer>
+    <div class="footer-content">
+        <p>
+        Copyright &copy; 2020, ETECIA DS - Todos os diretos reservados
+        </p>
+        <div class="social-list">
+        <ul>
+            <li><a href=""><i class="fab fa-github-alt"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        </div>
+    </div>
+    </footer>
+    <a href="#home" id="link-topo">
+    <i class="fas fa-arrow-up"></i>
+    </a>
 </div>
 </body>
+<script src="script.js"></script>
 </html>
