@@ -9,7 +9,6 @@
     text-decoration: none;
 }
 
-
 :root {
     --font-primary: "Baloo Da 2", serif;
     --font-secundary: "Josefin Slab", serif;
@@ -19,7 +18,8 @@
 html{
     scroll-behavior: smooth;
 }
-            /* Parte menu lateral da pagina principal */
+
+        /* -----Parte menu lateral----- */
 
 .linhas_menu {
     width: 2rem;
@@ -34,7 +34,6 @@ html{
     cursor: pointer;
 }
 
-
 .line {
     width: 100%;
     height: 0.1rem;
@@ -43,9 +42,8 @@ html{
     transition: transform 1s;
 }
 
-
 header {
-    width: 100vmax;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -176,27 +174,27 @@ header {
     background-color: #24272bad;
 }
 
-
-/*--------------- Topico Conhecimento ----------  */
+        /* -----Topico Conhecimento----- */
 
 .sessao_conhecimentos {
-    margin: 10px;
     font-family: var(--font-primary);
     font-size: 40px;
     color: rgb(127, 150, 145);
     text-align: center;
     
 }
+
 i{
     color: rgb(112, 95, 95);
     font-size: 2rem;
 }
 
 .Conhecimento_Topico_html {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
     
 }
+
 .btn_html {
     border: none;
     background: none;
@@ -207,9 +205,10 @@ i{
 }
 
 .Conhecimento_Topico_css {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
+
 .btn_css {
     border: none;
     background: none;
@@ -219,9 +218,10 @@ i{
 }
 
 .Conhecimento_Topico_python {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
+
 .btn_python {
     border: none;
     background: none;
@@ -231,9 +231,10 @@ i{
 }
 
 .Conhecimento_Topico_javascript {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
+
 .btn_javascript{
     border: none;
     background: none;
@@ -243,9 +244,10 @@ i{
 }
 
 .Conhecimento_Topico_reactjs{
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
+
 .btn_reactjs {
     border: none;
     background: none;
@@ -255,9 +257,10 @@ i{
 }
 
 .Conhecimento_Topico_git_e_github{
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
+
 .btn_git {
     border: none;
     background: none;
@@ -267,9 +270,10 @@ i{
 }
 
 .Conhecimento_Topico_Metodologias_Ageis{
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
+
 .btn_metodologia{
     border: none;
     background: none;
@@ -279,9 +283,10 @@ i{
 }
 
 .Conhecimento_Topico_Sql{
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
+
 .btn_sql{
     border: none;
     background: none;
@@ -289,7 +294,9 @@ i{
     font-family:var(--font-primary);
     color: rgb(134, 106, 106);
 }
-                     /*  topico projetos */
+
+        /* -----topico projetos----- */
+
 .projetos {
     display: flex;
     justify-content: space-evenly;
@@ -420,8 +427,7 @@ i{
     border-bottom: 1px solid;
 }
 
-
-                /* topico roda pé é redes sociais */
+        /* -----topico roda pé----- */
 
 .preenchido{
     pointer-events: none;
@@ -430,7 +436,7 @@ i{
 footer{
     width: 100%;
     height: 7rem;
-    background-color: #17181b;
+    background-color: #0a0b0c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -450,12 +456,13 @@ footer{
 
 .social-list a{
     margin: 0 2rem;
-    color: #9b9595;
+    color: #978c8c;
     font-size: 1.3rem;
 }
 
 .social-list ul {
-    display: flex;
+    display: inline-flex;
+    
 }
 
 #link-topo{
