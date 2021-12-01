@@ -58,6 +58,7 @@ header{
         transform: translateY(0) rotateY(0);
     }
 }
+
 /*-----Midia lateral-----*/
 
 .social_lateral{
@@ -79,9 +80,8 @@ header{
     color: #1b0909;
     font-size: 2rem;
     display: flex;
-    opacity: 0.6;
+    opacity: 0.3;
 }
-
 
 /* -----Topico menu lateral-----*/
 
