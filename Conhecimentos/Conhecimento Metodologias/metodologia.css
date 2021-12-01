@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 header{
@@ -57,7 +59,31 @@ header{
     }
 }
 
-/* -----topico menu lateral-----*/
+/*-----Midia lateral-----*/
+
+.social_lateral{
+    display: inline-table;
+    height: 5rem;
+    position: fixed;
+    z-index: 100;
+    left: 2rem;
+    top: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+}
+
+.social_lateral a {
+    margin: 1.5rem;
+    color: #1b0909;
+    font-size: 2rem;
+    display: flex;
+    opacity: 0.3;
+}
+
+/* -----Topico menu lateral-----*/
 
 .linhas_menu {
     width: 2rem;
