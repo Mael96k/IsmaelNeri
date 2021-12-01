@@ -32,7 +32,7 @@ body{
     justify-content: center;
 }
 
-.logn_input{
+.login_input{
     height: 48px;
     width: 100%;
     box-sizing: border-box;
@@ -45,7 +45,7 @@ body{
     height: 1px;
     width: 100%;
     margin-bottom: 16px;
-    background-color: white;
+    background-color: rgb(189, 181, 181);
     transition: .3s ease-in-out;
 }
 
@@ -55,6 +55,6 @@ body{
     height: 1px;
     width: 0;
     margin-bottom: 16px;
-    background: linear-gradient(120deg, #74b6b6, #9c814e);
+    background: linear-gradient(120deg, #0a1313, #b98422);
     transition: .3s ease-in-out;
 }
