@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 header{
@@ -56,8 +58,32 @@ header{
         transform: translateY(0) rotateY(0);
     }
 }
+/*-----Midia lateral-----*/
 
-/* -----topico menu lateral-----*/
+.social_lateral{
+    display: inline-table;
+    height: 5rem;
+    position: fixed;
+    z-index: 100;
+    left: 2rem;
+    top: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+}
+
+.social_lateral a {
+    margin: 1.5rem;
+    color: #1b0909;
+    font-size: 2rem;
+    display: flex;
+    opacity: 0.6;
+}
+
+
+/* -----Topico menu lateral-----*/
 
 .linhas_menu {
     width: 2rem;
@@ -115,7 +141,6 @@ footer{
 
 .social-list ul {
     display: inline-flex;
-    
 }
 
 #link-topo{
