@@ -188,10 +188,10 @@ i{
     font-size: 2rem;
 }
 
+
 .Conhecimento_Topico_html {
     font-size: 2.5rem;
     text-align: center;
-    
 }
 
 .btn_html {
@@ -200,7 +200,11 @@ i{
     font-size: 30px;
     font-family:var(--font-primary);
     color: rgb(134, 106, 106);
-    
+    transition: color 1s;
+}
+
+.btn_html:hover{
+    color: #bebecaad;
 }
 
 .Conhecimento_Topico_css {
@@ -214,6 +218,11 @@ i{
     font-size: 30px;
     font-family:var(--font-primary);
     color: rgb(134, 106, 106);
+    transition: color 1s;
+}
+
+.btn_css:hover{
+    color: #bebecaad;
 }
 
 .Conhecimento_Topico_python {
@@ -227,6 +236,11 @@ i{
     font-size: 30px;
     font-family:var(--font-primary);
     color: rgb(134, 106, 106);
+    transition: color 1s;
+}
+
+.btn_python:hover{
+    color: #bebecaad;
 }
 
 .Conhecimento_Topico_javascript {
@@ -240,6 +254,11 @@ i{
     font-size: 30px;
     font-family:var(--font-primary);
     color: rgb(134, 106, 106);
+    transition: color 1s;
+}
+
+.btn_javascript:hover{
+    color: #bebecaad;
 }
 
 .Conhecimento_Topico_reactjs{
@@ -253,6 +272,11 @@ i{
     font-size: 30px;
     font-family:var(--font-primary);
     color: rgb(134, 106, 106);
+    transition: color 1s;
+}
+
+.btn_reactjs:hover{
+    color: #bebecaad;
 }
 
 .Conhecimento_Topico_git_e_github{
@@ -266,6 +290,11 @@ i{
     font-size: 30px;
     font-family:var(--font-primary);
     color: rgb(134, 106, 106);
+    transition: color 1s;
+}
+
+.btn_git:hover{
+    color: #bebecaad;
 }
 
 .Conhecimento_Topico_Metodologias_Ageis{
@@ -279,6 +308,11 @@ i{
     font-size: 30px;
     font-family:var(--font-primary);
     color: rgb(134, 106, 106);
+    transition: color 1s;
+}
+
+.btn_metodologia:hover{
+    color: #bebecaad;
 }
 
 .Conhecimento_Topico_Sql{
@@ -292,6 +326,11 @@ i{
     font-size: 30px;
     font-family:var(--font-primary);
     color: rgb(134, 106, 106);
+    transition: color 1s;
+}
+
+.btn_sql:hover{
+    color: #bebecaad;
 }
 
 /*-----Topico projetos-----*/
@@ -348,13 +387,14 @@ i{
 
 .projetoss h2 {
     font-family: var(--font-primary);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     color: #eee;
 }
 
 .projetoss h3 {
     font-family: var(--font-action);
+    font-size: 2rem;
     font-weight: bolder;
     color: #ff4081;
     margin-bottom: 1.5rem;
