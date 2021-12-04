@@ -117,6 +117,7 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
+    
 }
 
 .social_lateral a {
@@ -125,6 +126,11 @@ header{
     font-size: 2rem;
     display: flex;
     opacity: 0.3;
+}
+
+.social_lateral i:hover{
+    transition: 1s;
+    color: #bebecaad;
 }
 
 /* -----Topico menu lateral-----*/
