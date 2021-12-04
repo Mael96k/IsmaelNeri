@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+body{
+    background-color: rgba(139, 118, 34, 0.26);
+}
+
 header{
     width: 100%;
     overflow: hidden;
@@ -64,12 +68,12 @@ header{
 /*-----Bara lateral-----*/
 
 .sidebar {
-    width: 20rem;
+    width: 15rem;
     height: 100vh;
     background-color: rgb(230, 225, 225);
     position: fixed;
     top: 0;
-    right: -20rem;
+    right: -15rem;
     transition: all 1s;
     z-index: 80;
 }
@@ -108,7 +112,6 @@ header{
     height: 5rem;
     position: fixed;
     z-index: 100;
-    left: 2rem;
     top: 27rem;
     display: flex;
     flex-direction: column;
@@ -146,6 +149,25 @@ header{
     background-color: #fff;
     box-shadow: 0.1rem 0.1rem 1px #000;
     transition: transform 1s;
+}
+
+/*------Toico texto-----*/
+
+.texto{
+    margin: 30px 240px 20px 80px;
+    font-family: Dosis;
+}
+
+.introduçao h3{
+    font-size: 2.5rem;
+}
+
+.valores h3{
+    font-size: 2.5rem;
+}
+
+.fonte h3{
+    font-size: 2.5rem;
 }
 
 /* -----Topico roda pé----- */
