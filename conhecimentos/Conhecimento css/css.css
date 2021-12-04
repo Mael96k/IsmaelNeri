@@ -126,6 +126,11 @@ header{
     opacity: 0.3;
 }
 
+.social_lateral i:hover{
+    color: #bebecaad;
+    transition: 1s;
+}
+
 /* -----Topico menu lateral-----*/
 
 .linhas_menu {
@@ -203,10 +208,6 @@ footer{
 
 .social_list ul {
     display: inline-flex;
-}
-
-i:hover{
-    color: #bebecaad;
 }
 
 #link_topo{
