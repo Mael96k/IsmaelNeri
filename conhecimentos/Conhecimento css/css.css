@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+body{
+    background-color: rgba(139, 118, 34, 0.26);
+}
+
 header{
     width: 100%;
     overflow: hidden;
