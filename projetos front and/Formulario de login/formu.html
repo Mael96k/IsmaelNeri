@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
+    <link rel="stylesheet"  href="formu.css">
 </head>
 <body>
-    
+    <div id="main_container">
+        <h1>Cadestre-se para acessar o sistema</h1>
+        <form id="register_form">
+            <div class="full_box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail"> 
+            </div>
+            <div class="half_box">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome"> 
+            </div>
+            <div class="half_box">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome"> 
+            </div>
+            <div class="half_box">
+                <label for="password">Senha</label>
+                <input type="text" name="password" id="password" placeholder="Digite sua senha"> 
+            </div>
+            <div class="half_box">
+                <label for="passconfirmation">Confirma senha</label>
+                <input type="text" name="passconfirmation" id="passconfirmation" placeholder="Confirma sua senha"> 
+            </div>
+            <div class="full_box">
+                <input type="checkbox" name="agreement" id="agreement" > 
+                <label for="agreement" id="agreement_label">Eu li e aceito os <a href="#">termos de uso</a></label>
+            </div>
+            <div class="full_box">
+                <input type="submit" id="btn_submit" value="Registrar">
+            </div>
+        </form>
+    </div>
+    <p class="error_validation template"></p>
+    <script src="formu.js"></script>
 </body>
 </html>
