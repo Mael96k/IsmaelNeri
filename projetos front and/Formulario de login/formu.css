@@ -90,3 +90,21 @@ input[type="submit"]{
 #agreement{
     margin-right: 5px;
 }
+
+#agreement, #agreement_label{
+    display: inline-block;
+    width: auto;
+}
+
+/* validação */
+
+.error_validation{
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}
