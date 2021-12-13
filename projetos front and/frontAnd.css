@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Muli:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:2px;
+}
+
+.sessao_header {
+    margin: 50px;
+    padding: 0;
+    font-family: var(--font-primary);
+    font-size: 40px;
+    color: rgb(127, 150, 145);
+    text-align: center
+}
+.card {
+    width: 18rem;
+    height: 25rem;
+    position: relative;
+}
+
+.card_img_wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    border-radius: 0.5rem;
+}
+
+.card_img_wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.card:hover .card_img_wrapper img {
+    opacity: 0.5;
+}
+
+.projetoss {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 2rem;
+    text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
+    transition: all 0.3s;
+}
+
+.projetoss h2 {
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    font-weight: 500;
+    color: #eee;
+}
+
+.projetoss h3 {
+    font-family: var(--font-action);
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #ff4081;
+    margin-bottom: 1.5rem;
+}
+
+.projetoss p {
+    font-family: var(--font-secundary);
+    color: #eee;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: #24272bad;
+    background: -webkit-linear-gradient(to right,#24272bad,#24272bad);
+    background: linear-gradient(to left, #24272bad,#24272bad);
+    font-family: var(--font-action);
+    color: #eee;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+}
+
+.projetoss button {
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.card:hover .projetoss {
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
+}
+.field {
+    background: transparent;
+    border: none;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-family: var(--font-secundary);
+    border-bottom: 2px dashed #636363;
+    height: 3rem;
+    outline: none;
+    margin: 1rem 0;
+}
+
+.input_group textarea {
+    padding-top: 1rem;
+    max-width: 25rem;
+    max-height: 3rem;
+}
+
+.field_label {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    font-size: 1rem;
+    font-family: var(--font-secundary);
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.field:focus ~ label {
+    top: 0;
+    font-size: 0.7rem;
+}
+
+.field:focus {
+    border-bottom: 1px solid;
+}
+
+/*-----Topico roda pé-----*/
+
+.preenchido{
+    pointer-events: none;
+}
+
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #0a0b0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_content p{
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social_list a{
+    margin: 0 2rem;
+    color: #978c8c;
+    font-size: 1.3rem;
+}
+
+.social_list ul {
+    display: inline-flex;
+    
+}
+
+#link_topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #24272bad;
+    background: -webkit-linear-gradient(to right, #24272bad, #24272bad);
+    background: linear-gradient(to left, #24272bad, #24272bad);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: .3rem;
+    box-shadow:  0 0.1rem 0.6rem #00000009;
+}
