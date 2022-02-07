@@ -384,21 +384,14 @@ i{
     bottom: 0;
     opacity: 0;
     visibility: hidden;
-    padding: 2rem;
+    padding: 0.5rem;
     text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
 }
 
-.projetoss h2 a{
-    font-family: var(--font-primary);
-    font-size: 3rem;
-    font-weight: 500;
-    color: #eee;
-}
-
 .projetoss h3 {
     font-family: var(--font-action);
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bolder;
     color: #ff4081;
     margin-bottom: 1.5rem;
