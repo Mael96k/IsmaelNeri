@@ -53,6 +53,338 @@
                     <li class="menu_item"><a href="#" class="menu_link"></a></li>
             </nav>
         </aside>
+        <div class="texto">
+            <div class="introduçao">
+                Introdução
+                à linguagem
+                Python
+
+                Python é uma linguagem de programação orientada a objetos. Sua essência foi criada para ter comandos e estruturas simples, de fácil leitura e compreensão. A seguir, conheça as principais características dessa linguagem.
+
+                Variáveis e tipos básicos de dados em Python
+A construção de um algoritmo envolve entrada, processamento e saída. Para que o processamento ocorra, é necessário um meio de armazenar valores temporariamente, razão pela qual surge o conceito de variáveis. Uma variável é um espaço alocado na memória RAM.
+
+Muitas linguagens de programação possuem variáveis com tipo primitivo, como int, ou string – em Python esses tipos primitivos não existem. 
+
+Na linguagem Python, o tipo de variável é identificado no momento que se atribui um valor a ela. Portanto, uma variável refere-se a um valor.
+
+Banin (2018) explica que “O modelo de dados do Python (Python Data Model, em inglês) adota como paradigma que todo dado em um programa escrito com Python é representado por um objeto”.
+
+Todo objeto Python tem três aspectos:
+
+Um identificador.
+Um tipo.
+Um conteúdo.
+Os códigos a seguir exibem o resultado para três objetos: int, str e float (tipos de variáveis), sem declaração do tipo.
+
+print(‘olá’)
+# string
+print(10)
+# inteiro
+print(3.141592)
+# float
+
+Operadores numéricos
+Como já destacamos, todo objeto em Python possui um identificador (o nome), um tipo e o conteúdo. Diferentes tipos de objetos vão suportar diferentes operações. Cada uma destas deve ser escolhida de acordo com o problema a ser resolvido.
+
+Os tipos numéricos, naturalmente, suportam operações matemáticas entre si, devendo ser respeitada a ordem de precedência dos operadores:
+
+1
+
+Primeiro resolvem-se os parênteses, do mais interno para o mais externo.
+
+2
+
+
+Exponenciação.
+
+3
+
+
+Multiplicação e divisão.
+
+2
+
+
+Soma e subtração.
+
+Estruturas
+condicionais
+de repetição
+e lógicas
+em Python
+
+Em geral, em um programa você tem opções de caminhos ou lista de comandos que nada mais são que trechos de códigos que podem ser executados, devendo-se tomar decisões sobre qual trecho de código será executado em um determinado momento. Em Python estruturas são bem definidas,
+
+Estruturas condicionais em Python: if, elif, else
+Uma estrutura condicional verifica a condição dos argumentos passados e executa um comando caso a condição seja verdadeira. Para a construção de estruturas condicionais em Python são utilizados os comandos:
+
+if
+Por padrão, o bloco de instrução que estiver abaixo da instrução if será executado quando a expressão contida na estrutura if  for verdadeira.
+
+else
+Instrução complementar da estrutura if, deve ser executada quando a expressão definida for igual a falso.
+
+elif
+Trata-se de uma abreviação do else if usado para fazer as condições intermediárias.
+
+Além dos comandos, o bloco condicional é marcado pelos dois-pontos ao final da condição e pela identação do bloco de comandos a ser executado caso a condição seja verdadeira.
+
+obs:
+Em Python, a identação é obrigatória sempre que houver um ou mais comandos subordinados a outro.
+
+Estruturas de repetição
+O comando for em Python
+A instrução for em Python faz uma iteração sobre os itens de qualquer sequência – por exemplo, iterar sobre os caracteres de uma palavra, já que esta é um tipo de sequência.
+
+O bloco de comandos a ser executado deve ser identado em razão da relação e da subordinação.
+
+A sintaxe do comando envolve:
+
+for
+A palavra reservada “for” seguido de uma variável de controle; 
+
+in
+A palavra reservada “in”;
+
+E uma sequência acompanhada por dois-pontos.
+
+O comando while em Python
+O comando while deve ser utilizado para construir e controlar a estrutura decisão, sempre que o número de repetições não seja conhecido. Por exemplo, quando queremos solicitar e testar se o número digitado pelo usuário é par ou ímpar. Quando ele digitar zero, o programa se encerra. Veja, não sabemos quando o usuário irá digitar, portanto somente o while é capaz de solucionar esse problema.
+
+Pesquise mais
+A construção de uma sequência numérica pode ser feita com o comando range(). Ao consultar a documentação oficial, encontramos range() na lista de funções built-in em Python (2020a ) . Veja o exemplo seguinte:
+
+>>> list(range(10)) #Gera uma sequência de 0 à 9.
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(1)11) #Gera uma sequência de 1 à 11.
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> list(range(0,30,5)) #Gera uma sequência de 0 à 30 com step = 5.
+[0, 5, 10, 15, 20, 25]
+>>> list(range(0,-10,-1)) #Gera uma sequência numérica negativa.
+[0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
+>>> list(range(0)) )) #Gera uma lista vazia.
+[]
+
+
+Praticando
+Agora iremos colocar em prática a codificação do loop por meio dos comandos for e while.
+
+O loop for é muito utilizado em conjunto com o range, o loop facilita a iteração dos valores sem a necessidade de escrever código para alterar esse valor, dificultando a ocorrência de um loop infinito. Observe a sintaxe do exemplo que a contagem inicia em 1 e para em 10.
+
+contagem = 0
+for contagem in range(1,10):
+        print(contagem)
+
+
+        A estrutura de repetição while executa um conjunto de instruções enquanto uma condição for verdadeira. O loop é interrompido quando a condição passa a ser falsa. 
+
+Observe o exemplo a seguir, o loop while continuará executando as duas linhas de código enquanto a contagem for menor que 10, no momento em que atingir 10, a execução é finalizada.
+
+contagem = 0
+while(contagem < 10):
+        print(contagem)
+        contagem = contagem + 1
+
+        Estruturas lógicas em python: and, or, not
+        Em Python utilizamos operadores booleanos para construir estruturas de decisões mais complexas. Nesses operadores o Verdadeiro é chamado de True (igual a 1) e o Falso é chamado False (igual a 0).
+
+        and
+        Faz a expressão lógica E. Dessa forma esse operador retorna um valor verdadeiro somente se as duas expressões forem verdadeiras.
+
+        or
+        Faz a expressão lógica OU. Dessa forma esse operador retorna um valor falso somente se as duas expressões forem falsas.
+
+        not
+        Faz a expressão lógica NOT. Esse operador muda o valor de seu argumento, ou seja, se o argumento for verdadeiro, a operação o transformará em falso e vice-versa.
+
+        Os tipos de estruturas aqui apresentados, condicionais e de repetição, representam uma parte fundamental da linguagem de programação em Python, sendo assim, é muito importante conhecer a sintaxe e o funcionamento dessas estruturas. 
+
+
+Funções em
+Python
+
+Uma função é uma forma de organização, usada para delimitar ou determinar quais tarefas podem ser realizadas por uma determinada divisão. Em linguagem de programação, uma função é uma sequência de instruções que processa um ou mais resultados que são chamados de parâmetros. Em Python temos as funções built-in e as funções definidas pelo usuário. 
+
+Funções built-in em Python
+Uma função built-in é um objeto que está integrado ao núcleo do interpretador Python. Ou seja, não precisa ser feita nenhuma instalação adicional, já está pronto para uso. 
+
+O interpretador Python possui várias funções disponíveis, conforme podemos conservar na tabela de Funções built-in em Python.
+
+Built-in em Python
+abs()
+delattr()
+hash()
+memoryview()
+set()
+all()
+dict()
+help()
+min()
+setattr()
+any()
+dir()
+hex()
+next()
+slice()
+ascii()
+divmod()
+id()
+object()
+sorted()
+bin()
+enumerate()
+input()
+oct()
+staticmethod()
+bool()
+eval()
+int()
+open()
+str()
+breakpoint()
+exec()
+isinstance()
+ord()
+sum()
+bytearray()
+filter()
+issubclass()
+pow()
+super()
+bytes()
+float()
+iter()
+print()
+tuple()
+callable()
+format()
+len()
+property()
+type()
+chr()
+frozenset()
+list()
+range()
+vars()
+classmethod()
+getattr()
+locals()
+repr()
+zip()
+compile()
+globals()
+map()
+reversed()
+__import__()
+complex()
+hasattr()
+max()
+round()
+
+Função definidas pelo usuário
+Além das Funções built-in, muitas vezes as soluções exigem a implementação de funções específicas, as quais são chamadas de funções definidas pelo usuário. 
+
+Funções, também conhecidas como subprogramas ou sub-rotinas, são pequenos blocos de código aos quais se dá um nome, desenvolvidos para resolver tarefas específicas. Tais funções constituem um elemento de fundamental importância na moderna programação de computadores, a ponto de ser possível afirmar que atualmente nenhum programa de computador é desenvolvido sem o uso desse recurso.
+
+A sintaxe de uma função em Python é feita com:
+
+A palavra reservada def.
+O nome da função.
+Os parênteses que indicam se existem ou não parâmetros para a função.
+E o comando return (que é opcional);
+
+Funções anônimas em Python
+Expressões lambda (às vezes chamadas de formas lambda) são usadas para criar funções anônimas. Uma função anônima é uma função que não é construída com o "def " e que, por isso, não possui nome. Esse tipo de construção é útil quando a função faz somente uma ação e é usada uma única vez.
+
+Pesquise mais
+Os argumentos de uma função podem ser posicionais ou nominais. No primeiro, cada argumento será acessado pela sua posição; no segundo, pelo nome. Além disso, os parâmetros podem ter valores padrões, o que torna sua passagem não obrigatória.
+
+Listas, tuplas, set,
+dicionário em
+Python
+
+Em Python, é permitido a utilização de vários tipos de estruturas de dados. As principais estruturas são as listas, tuplas, set e dicionário. 
+
+Listas
+Lista é uma estrutura de dados do tipo sequencial que possui como principal característica ser mutável. Ou seja, novos valores podem ser adicionados ou removidos da sequência. 
+
+Na lista, os dados são posicionais e sequenciais
+
+Como criar uma lista em Python
+Em Python, uma das maneiras de criar uma lista é colocando os valores entre colchetes, conforme código a seguir:
+
+vogais = ['a', 'e', 'i', 'o', 'u']
+
+A lista pode ser criada sem nenhum elemento, e a inserção pode ser feita posteriormente:
+
+vogais = []
+vogais.append('a')
+vogais.append('e')
+vogais.append('i')
+vogais.append('o')
+vogais.append('u')
+
+Para acessar o valor guardado em uma lista, basta indicar o nome da variável e, entre colchetes, a posição do elemento, ou a fatia (slice) de valores que se deseja:
+
+vogais[3]
+vogais[3:]
+
+List comprehension
+Uma maneira muito elegante de criar uma lista é usando a list comprehension. Também chamada de listcomp, é uma forma pythônica de criar uma lista com uso de um objeto iterável.
+
+Esse tipo de técnica é utilizado quando, dada uma sequência, deseja-se criar uma nova sequência, porém com as informações originais transformadas ou filtradas por um critério.
+
+Sua sintaxe básica é:
+[item for item in lista]
+
+Os comandos for-in são obrigatórios. 
+
+As variáveis item e lista dependem do nome dado no programa. Veja um exemplo de sintaxe utilizando a listcomp:
+
+[2*x for x in range(10)]
+
+Tuplas
+As tuplas também são estruturas de dados do grupo de objetos do tipo sequência.
+
+A grande diferença entre listas e tuplas é que, com as primeiras, uma vez que são mutáveis, conseguimos fazer atribuições a posições específicas (por exemplo, lista[2] = 'maça'), o que, nas segundas, não é possível, pois estas são objetos imutáveis.
+
+
+Fonte: Shutterstock.
+Em Python, uma das maneiras de criar uma tupla é colocando os valores entre parênteses, conforme código a seguir:
+
+vogais = ('a', 'e', 'i', 'o', 'u')
+
+Ao contrário da lista, uma tupla não permite a inserção posterior de dados, mas os dados podem ser acessados pela sua posição na sequência.
+
+Sets
+Um objeto do tipo set habilita operações matemáticas de conjuntos, tais como: união, intersecção, diferença, etc. Esse tipo de estrutura pode ser usado em testes de associação e remoção de valores duplicados de uma sequência.
+
+Em Python, uma das maneiras de se criar um objeto do tipo set é colocando os valores entre chaves, conforme código a seguir:
+
+vogais = {'a', 'e', 'i', 'o', 'u'}
+
+Um set permite a inserção de valores posteriores à sua criação, com a função add(), mas não permite acessar valores pela sua posição.
+
+Dicionários
+As estruturas de dados que possuem um mapeamento entre uma chave e um valor são consideradas objetos do tipo mapping. Em Python, o objeto que possui essa propriedade é o dict (dicionário). Tal objeto é mutável, ou seja, com ele conseguimos atribuir um novo valor a uma chave já existente.
+
+Em Python, uma das maneiras de criar um objeto do tipo dicionário é colocando as chaves e os valores entre estas, conforme código a seguir:
+
+cadastro = {'nome': 'João', 'idade': 30, 'cidade': 'São Paulo'}
+
+Para acessar um valor em um dicionário, basta digitar:
+
+nome_dicionario[chave]
+
+E, para atribuir um novo valor, use:
+
+nome_dicionario[chave] = novo_valor
+
+
+
+            </div>
+        </div>
 
     <div>
         <footer>
