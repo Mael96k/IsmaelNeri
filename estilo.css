@@ -48,7 +48,6 @@ html{
 
 header {
     width: 100%;
-    max-width: 980px;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -56,7 +55,6 @@ header {
 
 .img_cabeça {
     width: 100%;
-    max-width: 980px;
     height: 100%;
     overflow: hidden;
     background-color: rgba(5, 4, 4, 0.8);
@@ -64,7 +62,6 @@ header {
 
 .img_cabeça img {
     width: 100%;
-    max-width: 980px;
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
@@ -194,7 +191,6 @@ i{
     color: rgb(112, 95, 95);
     font-size: 2rem;
 }
-
 
 .Conhecimento_Topico_html {
     font-size: 2.5rem;
@@ -356,6 +352,7 @@ i{
     color: rgb(127, 150, 145);
     text-align: center
 }
+
 .card {
     width: 18rem;
     height: 25rem;
@@ -520,3 +517,5 @@ footer{
     border-radius: .3rem;
     box-shadow:  0 0.1rem 0.6rem #00000009;
 }
+
+/*-----Topico responsividade-----*/
