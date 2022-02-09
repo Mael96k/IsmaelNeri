@@ -182,7 +182,7 @@ header {
 
 .sessao_conhecimentos {
     font-family: var(--font-primary);
-    font-size: 40px;
+    font-size: 2rem;
     color: rgb(127, 150, 145);
     text-align: center;
 }
@@ -339,18 +339,19 @@ i{
 /*-----Topico projetos-----*/
 
 .projetos {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom:2px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: auto;
+    margin-top: ;
 }
 
 .sessao_header {
     margin: 50px;
     padding: 0;
     font-family: var(--font-primary);
-    font-size: 40px;
+    font-size: 1.5rem;
     color: rgb(127, 150, 145);
-    text-align: center
+    text-align: center;
 }
 
 .card {
@@ -385,7 +386,7 @@ i{
     opacity: 0;
     visibility: hidden;
     padding: 0.5rem;
-    text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
+    text-shadow: 0.3rem 0.2rem 0.3rem rgba(56, 50, 50, 0.6);
     transition: all 0.3s;
 }
 
@@ -393,8 +394,13 @@ i{
     font-family: var(--font-action);
     font-size: 1rem;
     font-weight: bolder;
-    color: #ff4081;
+    color: #852d50;
     margin-bottom: 1.5rem;
+}
+
+.projetoss h2{
+    font-size: 3rem;
+   margin: 2rem;
 }
 
 .projetoss p {
@@ -518,4 +524,4 @@ footer{
     box-shadow:  0 0.1rem 0.6rem #00000009;
 }
 
-/*-----Topico responsividade-----*/
+/*-----Topico responsividade  media queries-----*/
