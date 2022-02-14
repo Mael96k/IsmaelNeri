@@ -154,7 +154,7 @@ header{
     transition: transform 1s;
 }
 
-/*------Toico texto-----*/
+/*------Topico texto-----*/
 
 .texto{
     margin: 30px 240px 20px 80px;
@@ -212,10 +212,10 @@ footer{
 
 #link_topo{
     position: fixed;
-    right: 3rem;
-    bottom: 3rem;
-    width: 3rem;
-    height: 3rem;
+    right: 2rem;
+    bottom: 2rem;
+    width: 2rem;
+    height: 2rem;
     background: #24272bad;
     background: -webkit-linear-gradient(to right, #24272bad, #24272bad);
     background: linear-gradient(to left, #24272bad, #24272bad);
@@ -225,4 +225,18 @@ footer{
     color: #fff;
     border-radius: .3rem;
     box-shadow:  0 0.1rem 0.6rem #00000009;
+}
+
+
+
+.mael img{
+    
+    width: 4.5rem;
+    border-radius: 100%;
+}
+.mael_nome {
+    margin: 30px;
+    font-size: 1.5rem;
+    color: rgb(162, 143, 143);
+    font-family: Dosis;
 }
