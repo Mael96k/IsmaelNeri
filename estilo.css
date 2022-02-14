@@ -402,7 +402,7 @@ i{
 
 .projetoss h2{
     font-size: 3rem;
-   margin: 2rem;
+    margin: 2rem;
 }
 
 .projetoss p {
@@ -495,26 +495,23 @@ footer{
 .footer_content p{
     font-family: var(--font-secundary);
     color: #a7a7a7;
-    font-size: 1.2rem;
 }
 
 .social_list a{
-    margin: 0 2rem;
+    margin: 2rem;
     color: #978c8c;
-    font-size: 1.3rem;
 }
 
 .social_list ul {
     display: inline-flex;
-    
 }
 
 #link_topo{
     position: fixed;
-    right: 3rem;
-    bottom: 3rem;
-    width: 3rem;
-    height: 3rem;
+    left: 0.8rem;
+    bottom: 2rem;
+    width: 2rem;
+    height: 2rem;
     background: #24272bad;
     background: -webkit-linear-gradient(to right, #24272bad, #24272bad);
     background: linear-gradient(to left, #24272bad, #24272bad);
