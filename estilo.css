@@ -187,11 +187,6 @@ header {
     text-align: center;
 }
 
-i{
-    color: rgb(112, 95, 95);
-    font-size: 2rem;
-}
-
 .Conhecimento_Topico_html {
     font-size: 2.5rem;
     text-align: center;
@@ -341,8 +336,6 @@ i{
 .projetos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    
-   
 }
 
 .sessao_header {
@@ -495,11 +488,13 @@ footer{
 .footer_content p{
     font-family: var(--font-secundary);
     color: #a7a7a7;
+    font-size: 1.2rem;
 }
 
 .social_list a{
-    margin: 2rem;
+    margin:0 2rem;
     color: #978c8c;
+    font-size: 1.3rem;
 }
 
 .social_list ul {
