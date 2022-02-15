@@ -470,6 +470,7 @@ footer {
     bottom: 0px;
     width: 100%;
     background-color: #0a0b0c;
+    color: #ffffff;
 }
 
 .main-content{
@@ -507,4 +508,9 @@ footer {
     line-height: 40px;
     border-radius: 5px;
     font-size: 18px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover{
+    background: #f12020;
 }
