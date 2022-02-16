@@ -617,6 +617,7 @@ footer {
     padding: 5px;
     font-size: 15px;
     background: #151515;
+    text-align: center;
 }
 
 .bottom .center span{
@@ -630,4 +631,18 @@ footer {
 
 .bottom .center a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width:900px){
+    footer{
+        position: relative;
+        bottom: 0px;
+    }
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-content .box{
+        margin: 5px 0;
+    }
 }
