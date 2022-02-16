@@ -383,6 +383,43 @@ nome_dicionario[chave] = novo_valor
 
 
 
+Algoritmos
+de busca
+
+Os algoritmos computacionais são desenvolvidos e usados para resolver os mais diversos problemas. Algoritmos de busca, nesse universo, como o nome sugere, resolvem problemas relacionados ao encontro de valores em uma estrutura de dados.
+
+Diversas são as aplicações que utilizam esse mecanismo. 
+
+Você já fez alguma pesquisa no Google hoje? Já utilizou seu app do banco? Já procurou alguém nas redes sociais?
+
+Todas essas aplicações utilizam mecanismos de busca. Um grande diferencial entre uma ferramenta e outra é a velocidade da resposta: quanto mais rápido ela for, mais gostamos dela.
+
+Por trás de qualquer tipo de pesquisa existe um algoritmo de busca implementado. 
+
+Nesta Webaula vamos aprender sobre os algoritmos computacionais.
+
+Busca linear ou sequencial
+O algoritmo de busca sequencial, ou busca exaustiva, percorre os itens da sequência procurando o valor de destino
+A busca começa por uma das extremidades da sequência e vai percorrendo-a até encontrar (ou não) o valor desejado. Com essa imagem fica claro que uma pesquisa linear examina todos os itens da sequência até encontrar o item de destino, o que pode ser muito custoso computacionalmente.
+Código
+Explicação
+def executar_busca_linear(lista, valor):
+Definição da função
+  tamanho_lista = len(lista)
+Definição do tamanho da lista
+  tamanho_lista = len(lista)
+Estrutura de repetição para percorrer toda a lista
+    if valor == lista[i]:
+Condição para verificar se é o valor.
+      return True
+Retorno, caso encontre o valor
+  return False
+Retorno, caso não encontre o valor
+
+Algoritmos de busca sequencial
+Para procurar elementos em uma lista por meio de algoritmo de busca sequencial, é necessário percorrer todos os elementos da lista até encontrar o elemento procurado. Para isso, é realizada uma comparação do valor do elemento que se deseja encontrar na lista com o valor de cada posição na lista.
+
+
             </div>
         </div>
 
