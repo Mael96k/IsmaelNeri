@@ -409,7 +409,7 @@ header {
 .btn {
     background: #24272bad;
     background: -webkit-linear-gradient(to right,#24272bad,#24272bad);
-    background: linear-gradient(to left, #24272bad,#24272bad);
+    background: linear-gradient(to left, #73787ead,#24272bad);
     font-family: var(--font-action);
     color: #eee;
     border-radius: 0.5rem;
@@ -471,6 +471,8 @@ footer {
     width: 100%;
     background-color: #0a0b0c;
     color: #ffffff;
+    text-align: center;
+    font-family:var(--font-primary);
 }
 
 .social a{
@@ -493,16 +495,17 @@ footer {
 }
 
 .box .content{
-    margin: 20px 0 0 0;
+    margin: 20px;
+    left: -37px;
     position: relative;
 }
 
 .box .content:after{
     position: absolute;
     content: '';
-    width: 15%;
+    width: 20%;
     height: 2px;
-    background: #f12020;
+    background: #792b2b;
     top: -10px;
 }
 
@@ -511,7 +514,7 @@ footer {
     content: '';
     height: 2px;
     width: 100%;
-    background: #1a1a1a;
+    background: #b34c4c;
     top: -10px;
 }
 
@@ -535,7 +538,7 @@ footer {
 }
 
 .left .content .social a span:hover{
-    background: #f12020;
+    background: #91858c;
 }
 
 .left .content p{
@@ -555,7 +558,7 @@ footer {
 }
 
 .center .content .fas:hover{
-    background: #f12020;
+    background: #91858c;
 }
 
 .center .content .text{
@@ -586,7 +589,7 @@ footer {
 
 .right form input:focus,
 .right form textarea:focus{
-    outline-color: #3498db;
+    outline-color: #738088;
 }
 
 .right form .text{
@@ -607,10 +610,23 @@ footer {
     font-weight: 500;
     cursor: pointer;
     transition: .3s;
+    background: #24272bad;
+    background: -webkit-linear-gradient(to right,#24272bad,#24272bad);
+    background: linear-gradient(to left, #73787ead,#24272bad);
+    font-family: var(--font-action);
+    color: #eee;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+    
 }
 
 .right form .btn button:hover{
     background: #000000;
+}
+
+.center{
+    text-align: center;
 }
 
 .bottom .center{
