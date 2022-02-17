@@ -471,7 +471,7 @@ footer {
     width: 100%;
     background-color: #0a0b0c;
     color: #ffffff;
-    text-align: center;
+    
     font-family:var(--font-primary);
 }
 
@@ -496,7 +496,6 @@ footer {
 
 .box .content{
     margin: 20px;
-    left: -37px;
     position: relative;
 }
 
@@ -625,9 +624,6 @@ footer {
     background: #000000;
 }
 
-.center{
-    text-align: center;
-}
 
 .bottom .center{
     padding: 5px;
